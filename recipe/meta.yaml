@@ -1,5 +1,5 @@
 {% set name = "latch-persistence" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/latch_persistence-{{ version }}.tar.gz
-  sha256: d33fc47ac8b6a429ac1ccaa7e66c2326adb1f53711ec4f9b620d61ac75bd163a
+  sha256: 34561f856bf60f2771f4881395144b4e51373d00ab0f0011189657b776b70f0e
 
 build:
   noarch: python
